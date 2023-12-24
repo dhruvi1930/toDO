@@ -1,25 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// App.tsx
+import React, { useState } from "react";
+import { Routes, Route } from "react-router-dom";
+import { AppContainer, AppHeader } from "./global";
+import TaskTracker from "./task/TaskTracker";
+import { Task } from "./task/types";
+import Navbar from "./nav/Navbar";
 
 function App() {
+  // State for completed tasks
+  const [completedTasks, setCompletedTasks] = useState<Task[]>([]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContainer>
+      <AppHeader>
+        <Navbar />
+        <Routes>
+          <Route
+            path="toDo"
+            element={
+              <TaskTracker
+                completedTasks={completedTasks}
+                setCompletedTasks={setCompletedTasks}
+              />
+            }
+          />
+        </Routes>
+      </AppHeader>
+    </AppContainer>
   );
 }
 
