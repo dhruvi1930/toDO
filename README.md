@@ -27,3 +27,23 @@ TaskTracker is a simple web application built with TypeScript and Styled Compone
 ```bash
 git clone https://github.com/your-username/task-tracker.git
 cd task-tracker
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run the application:
+```bash
+npm start
+```
+The app will be available at http://localhost:3000.
+
+## Usage
+1. Open the TaskTracker application.
+2. Click on the "add task" button to add a new task.
+3. Use the edit button to modify task details.
+4. Click on the remove button to remove a task.
+5. Mark tasks as completed using the checkbox.
+
