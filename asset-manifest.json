@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/toDo/static/css/main.e6c13ad2.css",
-    "main.js": "/toDo/static/js/main.796520a2.js",
-    "static/js/787.d02f5415.chunk.js": "/toDo/static/js/787.d02f5415.chunk.js",
-    "static/media/background.jpg": "/toDo/static/media/background.a2a1da2ec866b5235330.jpg",
-    "static/media/Group 30.png": "/toDo/static/media/Group 30.a0b9803e52a282a9a933.png",
-    "index.html": "/toDo/index.html",
-    "main.e6c13ad2.css.map": "/toDo/static/css/main.e6c13ad2.css.map",
-    "main.796520a2.js.map": "/toDo/static/js/main.796520a2.js.map",
-    "787.d02f5415.chunk.js.map": "/toDo/static/js/787.d02f5415.chunk.js.map"
+    "main.css": "/toDO/static/css/main.e6c13ad2.css",
+    "main.js": "/toDO/static/js/main.acf1a2d9.js",
+    "static/js/787.d02f5415.chunk.js": "/toDO/static/js/787.d02f5415.chunk.js",
+    "static/media/background.jpg": "/toDO/static/media/background.a2a1da2ec866b5235330.jpg",
+    "static/media/Group 30.png": "/toDO/static/media/Group 30.a0b9803e52a282a9a933.png",
+    "index.html": "/toDO/index.html",
+    "main.e6c13ad2.css.map": "/toDO/static/css/main.e6c13ad2.css.map",
+    "main.acf1a2d9.js.map": "/toDO/static/js/main.acf1a2d9.js.map",
+    "787.d02f5415.chunk.js.map": "/toDO/static/js/787.d02f5415.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.796520a2.js"
+    "static/js/main.acf1a2d9.js"
   ]
 }
